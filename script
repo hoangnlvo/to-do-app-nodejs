@@ -1,0 +1,6 @@
+create database todolist
+create table tasks (
+	task_id serial not null,
+	task_name text not null,
+	task_is_done boolean default false
+)
